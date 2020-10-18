@@ -174,7 +174,7 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    #Used to check the data type
+    #Used to check the data type output
     #print(df.dtypes)
 
     #Converting End Time column from an object to datetime64[ns] data type
