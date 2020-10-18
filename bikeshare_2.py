@@ -84,13 +84,17 @@ def load_data(city, month, day):
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == day.title()]
 
+
+    #Ask the user if they want to see raw data, and if so how many lines
     show_raw_data = input('\nWould you like to see the raw data? Enter yes or no.\n')
+
     if show_raw_data.lower() == 'yes':
         while True:
             num_data = input('How many lines would you like to see? Enter a number 1-10.\n')
             try:
                 num_data = int(num_data)
                 if num_data <= 10 and num_data >= 1:
+                    print('Displaying raw data....')
                     pd.options.display.max_columns = None
                     print('\n',df.head(num_data))
                     break
