@@ -2,9 +2,9 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+CITY_DATA = { 'ch': 'chicago.csv',
+              'ny': 'new_york_city.csv',
+              'wa': 'washington.csv' }
 
 def get_filters():
     """
@@ -18,8 +18,8 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city = str(input("Input a city, Chicago, New York or Washington: \n")).lower()
-        if city.lower() not in ('chicago', 'new york', 'washington'):
+        city = str(input("Input a city, CH for Chicago, NY for New York City or WA for Washington: \n")).lower()
+        if city.lower() not in ('ch', 'ny', 'wa'):
             print("Please check your input.")
         else:
             break
