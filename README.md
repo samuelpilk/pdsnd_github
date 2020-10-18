@@ -13,5 +13,5 @@ new_york.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credit to the Udacity course
 
