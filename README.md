@@ -2,10 +2,10 @@
 This project was created on the 18 October 2020.
 
 ### Project Title
-Replace the Project Title
+BikeShare project
 
 ### Description
-Describe what your project is about and what it does
+This project is desgined to take user input about what sort of data they wish to see from 3 different csv files and then displays the out puts in a way in which is easy to view by the user.
 
 ### Files used
 Include the files used
